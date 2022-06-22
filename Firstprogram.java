@@ -1,15 +1,15 @@
 package basic;
 
 public class Firstprogram {
-	int x;
+	String Name ;
 	
-	void number() {
+	void number(String name) {
+		Name = name ;
 		System.out.println(x);
-		int x = 1;
 	}
 	
 	public static void main(String[] args) {
 		Firstprogram first = new Firstprogram();
-		first.number();
+		first.number("krishna");
 	}
 }
